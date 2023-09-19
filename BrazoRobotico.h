@@ -3,9 +3,9 @@
 
 class BrazoRobotico {
 private:
-    double x;
-    double y;
-    double z;
+    double x_inicial;
+    double y_inicial;
+    double z_inicial;
     bool sostener;
 
 public:
