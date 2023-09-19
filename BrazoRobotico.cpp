@@ -9,13 +9,13 @@ BrazoRobotico::BrazoRobotico(double x_inicial, double y_inicial, double z_inicia
         this->sostener = sostener;
 }
     double BrazoRobotico::getx(){
-            return x;
+            return x_inicial;
     }
     double BrazoRobotico::gety(){
-            return y;
+            return y_inicial;
     }
     double BrazoRobotico::getz(){
-            return z;
+            return z_inicial;
     }
     bool BrazoRobotico::sostenido(){
             return sostener;
