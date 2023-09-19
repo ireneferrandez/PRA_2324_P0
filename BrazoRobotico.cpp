@@ -17,7 +17,7 @@ BrazoRobotico::BrazoRobotico(double x_inicial, double y_inicial, double z_inicia
     double BrazoRobotico::getz(){
             return z;
     }
-    bool BrazoRobotico::se_sostiene(){
+    bool BrazoRobotico::sostenido(){
             return sostener;
     }
     void BrazoRobotico::coger(){
